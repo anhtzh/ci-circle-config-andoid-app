@@ -77,6 +77,7 @@ jobs:
           path: app/build/test-results
 
       - run: |
+          ls -a app/build/outputs/apk
           cp -a app/build/outputs/. app/build/reports/
 
       # See https://circleci.com/docs/2.0/deployment-integrations/ for deploy examples
