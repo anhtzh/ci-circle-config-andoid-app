@@ -1,20 +1,27 @@
 package com.anhtzh.circle_ci_101
 
 import android.os.Bundle
+import android.support.design.widget.FloatingActionButton
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.Toolbar
 import android.view.Menu
 import android.view.MenuItem
-import com.anhtzh.circleci101.R
-import kotlinx.android.synthetic.main.activity_scrolling.*
 
 class ScrollingActivity : AppCompatActivity() {
+
+    lateinit var vToolBar: Toolbar
+    lateinit var vFab: FloatingActionButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_scrolling)
-        setSupportActionBar(toolbar)
-        fab.setOnClickListener { view ->
+
+        vToolBar = findViewById(R.id.toolbar)
+        vFab = findViewById(R.id.fab)
+
+        setSupportActionBar(vToolBar)
+        vFab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
