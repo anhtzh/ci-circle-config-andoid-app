@@ -43,7 +43,7 @@ jobs:
           path: app/build/reports
           destination: reports       
 
-test-job:
+  test-job:
     docker:
       - image: circleci/android:api-26-alpha
       
