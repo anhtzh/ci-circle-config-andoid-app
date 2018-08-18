@@ -24,16 +24,15 @@ jobs:
       JVM_OPTS: -Xmx3200m
       TERM: dumb
     
-    filters:
-      tags:
-        only: /^v.*/
-
+    filters:      
       branches:
         only:
           - master
           - feature/new_dashboard
           - /dev/.*/
-                
+      tags:
+        only: /^v.*/
+                  
     steps:
       - checkout
 
