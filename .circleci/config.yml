@@ -92,8 +92,8 @@ workflows:
                 - feature/new_dashboard
                 - /dev/.*/
       - build-job:
-          requires:
-            - test-job
+          # requires:
+          #   - test-job
           filters:
             tags:
               only: /^v.*/
