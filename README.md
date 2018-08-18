@@ -6,4 +6,4 @@
 
 [![last-commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://circleci.com/gh/anhtzh/circle-ci-setup-with-andoid-app-101)
 
-https://img.shields.io/github/last-commit/google/skia.svg
+[![last-branch](https://circleci.com/gh/anhtzh/circle-ci-setup-with-andoid-app-101)](https://circleci.com/gh/anhtzh/circle-ci-setup-with-andoid-app-101)
