@@ -14,5 +14,5 @@
  - [ ] apk files
  - [x] badge for `public` build status
  - [ ] badge for `private` build status (need to test with API TOKEN)
- - [ ] badge for test coverage
+ - [x] badge for test coverage
  - [x] config `required` for `pull request` (setting in `Settings > Branches`)
