@@ -13,6 +13,6 @@
  - [x] tags cases (with `workflows`)
  - [ ] apk files
  - [x] badge for `public` build status
- - [ ] badge for `private` build status (need to test with API TOKEN)
+ - [x] badge for `private` build status (need to test with API TOKEN)
  - [ ] badge for test coverage
  - [x] config `required` for `pull request` (setting in `Settings > Branches`)
