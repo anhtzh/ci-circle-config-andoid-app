@@ -17,4 +17,4 @@
  - [ ] badge for test coverage
  - [x] config `required` for `pull request` (setting in `Settings > Branches`)
  
- feature/control_build_trigger_02
+ feature/control_build_trigger_03
