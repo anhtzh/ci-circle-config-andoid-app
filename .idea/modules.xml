@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/circle-ci-setup-with-andoid-app-101.iml" filepath="$PROJECT_DIR$/circle-ci-setup-with-andoid-app-101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ci-circle-config-andoid-app.iml" filepath="$PROJECT_DIR$/ci-circle-config-andoid-app.iml" />
     </modules>
   </component>
 </project>
