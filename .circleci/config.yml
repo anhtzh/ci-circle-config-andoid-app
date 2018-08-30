@@ -147,6 +147,7 @@ workflows:
                 only: /^v.*/
               branches:
                 only:
+                  - master
                   - feature/new_dashboard
         - circleci_build_job:
             requires:
@@ -156,6 +157,7 @@ workflows:
                 only: /^v.*/
               branches:
                 only:
+                  - master
                   - feature/new_dashboard
 
 #eof
