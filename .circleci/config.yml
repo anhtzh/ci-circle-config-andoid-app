@@ -134,7 +134,7 @@ workflows:
             branches:
               only:
                 # all branches begin with `feature/` except branch `feature/new_dashboard`
-                - /feature/(?!(new_dashboard)).*/
+                - /feature/(?!(new_dashboard|skipci)).*/
                 # all branches begin with `fix/`
                 - /fix/.*/
 
